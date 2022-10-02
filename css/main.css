@@ -1,0 +1,353 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+.p {
+    text-align: justify;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 20%;
+}
+
+.icon-twitter {
+
+    border-radius: 20%;
+}
+
+.fa-youtube:before {
+    content: "\f167";
+    font-size: 50px;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: inline;
+    margin: 25px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+body {
+    background: #e5e5e5;
+    color: #4c4c4c;
+    /*// font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-size: large;
+}
+
+li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4c4c4c;
+    font-size: xx-large;
+}
+
+a {
+    color: #106694;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+a:hover,
+a:focus {
+    color: #80c9f1;
+    text-decoration: none;
+    outline: none;
+}
+
+.box {
+    padding: 20px 30px;
+    background: #fff;
+    border-bottom: 1px solid #3a3a38;
+    position: relative;
+}
+
+.box-alt {
+    background: #fffffd;
+    padding: 20px 30px;
+    border-bottom: 1px solid #3a3a38;
+    position: relative;
+}
+
+.box .box-alt h1 {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+
+.box .box-alt h2 {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.box .box-alt h3 {
+    padding: 5px 5px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    font-size: 38px;
+}
+
+.couple-items,
+.portfolio-filter {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-logo {
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar-default {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 0;
+    padding: 0;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    margin-top: 8px;
+    margin-right: 14px;
+    margin-left: 14px;
+    width: 250px;
+    height: 78px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li {
+    margin-left: 1px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 25px 20px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4c4c4c;
+}
+
+.navbar-default .navbar-nav > li > a > i {
+    display: inline-block;
+    color: #08246b;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active:focus > a,
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active:focus > a:focus,
+.navbar-default .navbar-nav > li.active:hover > a:focus,
+.navbar-default .navbar-nav > li:hover > a:focus,
+.navbar-default .navbar-nav > li:focus > a:focus {
+    color: #08246b;
+    background-color: #fff;
+}
+
+@keyframes scaleUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes scaleUp {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes scaleUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+@-ms-keyframes scaleUp {
+    0% {
+        opacity: 0;
+        -ms-transform: scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: scale(1);
+    }
+}
+
+@-o-keyframes scaleUp {
+    0% {
+        opacity: 0;
+        -o-transform: scale(0.3);
+    }
+    100% {
+        opacity: 1;
+        -o-transform: scale(1);
+    }
+}
+
+.bottom {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 20px 10px 10px;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+    background-color: #051b54;
+    color: white;
+}
+
+h1 {
+    color: #2a6496;
+    margin-bottom: 25px;
+}
+
+.normal-text {
+    text-align: center;
+    margin: 25px;
+    font-size: large;
+}
+
+.lead {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 21px;
+    font-size: x-large;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.container {
+    max-width: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1210px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+}
+
+
